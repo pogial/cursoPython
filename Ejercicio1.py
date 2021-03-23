@@ -15,17 +15,17 @@ def mostrarLista(lista):
         print(resultado)
 
 #Crear Lista
-numeros = [13,64,52,73,21,7,91,63]
+numerosLista = [13,64,52,73,21,7,91,63]
 
 #Recorrer y mostrar
 print("*********RECORRER Y MOSTRAR***********")
-mostrarLista(numeros)
+mostrarLista(numerosLista)
 
 #Ordenar y mostrar
 print("*********ORDENAR Y MOSTRAR************")
-numeros.sort()
-mostrarLista(numeros)
+numerosLista.sort()
+mostrarLista(numerosLista)
 
 #Mostrar su longitd
-print("*********ORDENAR Y MOSTRAR************")
-print("Logitud de la Lista es: " + str(len(numeros)))
+print("*********LONGITUD*********************")
+print("Logitud de la Lista es: " + str(len(numerosLista)))
