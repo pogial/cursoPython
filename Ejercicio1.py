@@ -1,0 +1,31 @@
+"""
+Hacer un programa que tenga una lista de 8 numeros enteros y haga lo siguiente:
+    * Recorrer la lista y mostrarla.
+    * Hacer funcion que recorra lista de numeros.
+    * Ordenarla y mostrarla.
+    * Mostrar su longitud.
+    * Buscar algun elemento digitado por el usuario.
+"""
+
+#Hacer funcion que recorra la lista
+def mostrarLista(lista):
+    resultado = ""
+    for elemento in lista:
+        resultado = "Elemento: " + str(elemento)
+        print(resultado)
+
+#Crear Lista
+numeros = [13,64,52,73,21,7,91,63]
+
+#Recorrer y mostrar
+print("*********RECORRER Y MOSTRAR***********")
+mostrarLista(numeros)
+
+#Ordenar y mostrar
+print("*********ORDENAR Y MOSTRAR************")
+numeros.sort()
+mostrarLista(numeros)
+
+#Mostrar su longitd
+print("*********ORDENAR Y MOSTRAR************")
+print("Logitud de la Lista es: " + str(len(numeros)))
